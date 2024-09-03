@@ -20,6 +20,21 @@ PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := LE2115
 
+RISING_MAINTAINER = Razin Ares
+
+# Addons
+TARGET_HAS_UDFPS := true
+
+# GMS
+WITH_GMS := true
+
+# Set Pixel launcher as default launcher
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
+# Ship lawnchair
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
+
 PRODUCT_SYSTEM_NAME := OnePlus9
 PRODUCT_SYSTEM_DEVICE := OnePlus9
 
